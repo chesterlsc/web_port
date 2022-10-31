@@ -39,7 +39,7 @@
 *, ::before, ::after {
   box-sizing: border-box;
   color: #fff !important;
-  background-color: #1a1612 !important;
+  background-color: #252525 !important;
 }
 
 html {
@@ -51,7 +51,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: #1a1612 !important;
+  background-color: #252525 !important;
 }
 
 p{
@@ -322,7 +322,7 @@ img {
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: #252525
 }
 
 .skills__icon {
@@ -743,4 +743,14 @@ figure:hover .overlay {
   visibility: hidden !important;
   }
 }
+
+@media (max-width:425px){
+  .icons{
+  visibility: hidden !important;
+  }
+}
+
+@media (max-width:425px){
+ 
+
 
