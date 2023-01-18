@@ -134,6 +134,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  background-color: white;
  
   
 }
@@ -526,6 +527,7 @@ img {
   .nav__list {
     display: flex;
     padding-top: 0;
+    margin-right: 20px;
     
   }
   .nav__item {
@@ -758,17 +760,8 @@ figure:hover .overlay {
   visibility: hidden !important;
   }
 }
-@media (min-width: 1024px) and (max-width: 1600px){
-  .work__container{
-    width: 100% !important;
-    padding-right: 500px;
-  }
-}
 
-@media (min-width: 1000x) and (max-width: 1400x){
-  .img6{
-    width: 1000px !important;
-  }
-}
+
+
 
 
